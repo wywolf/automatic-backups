@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="index.php" method="POST" target="demo" enctype="multipart/form-data">
+        <!-- <input type="text" id="user" name="user">姓名
+        <input type="text" id="age">年龄 -->
+        <input type="file" name="file">
+        <button type="submit">提交</button>
+
+    </form>
+
+    <iframe name="demo"></iframe>
+
+
+
+
+    <!-- <script src="./ajax.js"></script> -->
+    <script>
+        // document.querySelector('button').onclick = function() {
+        //     ajax.post('./ajax.php', {
+        //         user: user.value,
+        //         age: age.value
+        //     }, function(res) {
+        //         if (res.success) {
+        //             var div = document.createElement('div');
+        //             div.innerHTML = '注册成功还剩<span>5</span>秒自动跳转';
+        //             document.body.appendChild(div);
+        //             changeHtml();
+        //         }
+
+        //     }, 'json');
+        // }
+
+        // function changeHtml() {
+        //     var span = document.querySelector('span');
+        //     var timer;
+        //     var n = 5;
+        //     timer = setInterval(function() {
+        //         span.innerHTML = --n;
+        //         if (n == 0) {
+        //             window.location.href = 'http: //leo.com/leo/userinfo.php';
+        //             clearInterval(timer);
+        //         }
+        //     }, 1000)
+        // }
+    </script>
+</body>
+
+</html>
